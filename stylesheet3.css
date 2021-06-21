@@ -1,0 +1,192 @@
+@charset 'utf-8';
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+
+  }
+}
+
+.header{
+  max-width: 1600px;
+  margin:0 auto;
+padding:0 4%;
+}
+.menu li{
+
+  display: inline-block;
+  margin:20px;
+  background:#faa61a;
+  text-align: center;
+  list-style:none;
+  padding-top:10px;
+}
+
+.menu{
+  text-align:center;
+display:block;
+  background-image: url("https://pakutaso.cdn.rabify.me/shared/img/thumb/KM19322A057.jpg.webp?d=1420");
+background-size: cover;
+
+
+}
+.menu a{
+  display: block;
+  padding:20px 75px;
+text-decoration: none;
+}
+
+.menu a:hover{
+  opacity: 0.5;
+}
+
+.menu span{
+  font-size:20px;
+  ;
+}
+.main h1{
+  text-align: center;
+  margin:80px ;
+  padding-top:10px;
+}
+
+.textimg{
+display: block;
+background-size: cover;
+max-width: 1200px;
+
+margin-left: 100px;
+}
+
+article{
+  width:74%;
+}
+
+aside{
+  width:22%;
+}
+.side{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.sub-title{
+  font-size:30px;
+  padding:0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
+}
+aside p{
+  padding:12px 10px;
+  font-size: 20px;
+}
+.sub-menu li{
+  font-size: 20px;
+  margin:10px 0px;
+}
+.sub-menu a{
+  display: inline-block;
+  text-decoration: none;
+  }
+
+  .menu a:hover{
+  opacity: 0.5;
+  }
+  .price1 h1{
+    display: block;
+    background: #94bcb7;
+    max-width: 1200px;
+    margin-left:  100px;
+    margin-top:50px;
+  }
+  .price1 h2{
+    display: block;
+    margin-left:  100px;
+    margin-top:20px;
+
+  }
+.picture {
+
+display: flex;
+  margin-left:100px;
+  margin-top:30px;
+  max-width: 550px;
+  max-height: 330px;
+  margin-right: 20px;
+}
+.picture img{
+  margin-right: 30px;
+}
+.picture p{
+  flex: none;
+  font-size: 19px;
+  margin: 20px 0px;
+}
